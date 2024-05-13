@@ -28,8 +28,7 @@
     "require": {
         "php": "^7.4 || ^8.0 || ^8.2 || ^8.3",
         "illuminate/support": "^7.22.4 || ^8.0 || ^9.5 || ^10.0 || ^11.0",
-        "symfony/http-foundation": "^6.0",
-        "protonemedia/laravel-form-components": "*"
+        "symfony/http-foundation": "^6.0"
     },
     "require-dev": {
         "livewire/livewire": "^2.0",
@@ -41,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ProtoneMedia\\LaravelFormComponents\\": "src"
+            "ProtoneMedia\\LaravelFormComponents\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ProtoneMedia\\LaravelFormComponents\\Tests\\": "tests"
+            "ProtoneMedia\\LaravelFormComponents\\Tests\\": "tests/"
         }
     },
     "scripts": {
